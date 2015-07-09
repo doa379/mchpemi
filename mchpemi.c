@@ -4,8 +4,8 @@
 #include <linux/types.h>
 #include <linux/acpi.h>
 
-MODULE_AUTHOR("Viktar Vauchkevich <victorenator@gmail.com>");
-MODULE_DESCRIPTION("Ambient Light Sensor Driver");
+MODULE_AUTHOR("doa379 <doa379@gmail.com>");
+MODULE_DESCRIPTION("MCHP Controller Driver");
 MODULE_LICENSE("GPL");
 
 static int emi_add(struct acpi_device *device);
