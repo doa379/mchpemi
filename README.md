@@ -1,2 +1,2 @@
 # mchpemi
-MCHPEMI Prototype Module
+MCHPEMI Prototype ACPI Module
