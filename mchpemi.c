@@ -5,7 +5,7 @@
 #include <linux/acpi.h>
 
 MODULE_AUTHOR("doa379 <doa379@gmail.com>");
-MODULE_DESCRIPTION("MCHP Controller Driver");
+MODULE_DESCRIPTION("ACPI Controller Driver");
 MODULE_LICENSE("GPL");
 
 static int emi_add(struct acpi_device *device);

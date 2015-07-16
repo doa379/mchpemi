@@ -1,4 +1,4 @@
-obj-m += mchpemi.o
+obj-m += i2c-emi.o
 
 KVERSION := $(shell uname -r)
 KDIR := /lib/modules/$(KVERSION)/build
@@ -14,5 +14,6 @@ install:
 	$(MAKE) -C $(KDIR) M=$(PWD) modules_install
 
 load:
-	-/sbin/rmmod mchpemi
-	/sbin/insmod mchpemi.ko
+	-/sbin/rmmod i2c-emi
+	/sbin/insmod i2c-emi.ko
+
